@@ -1,3 +1,4 @@
+# only runs as Python2 on my cloud VM!
 import tensorflow as tf
 hello = tf.constant('Hello, TensorFlow!')
 sess = tf.Session()
