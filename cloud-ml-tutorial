@@ -1,0 +1,6 @@
+#cloud ML demo @ https://cloud.google.com/ml/docs/how-tos/getting-set-up
+curl https://raw.githubusercontent.com/GoogleCloudPlatform/cloudml-samples/master/tools/setup_cloud_shell.sh | bash
+export PATH=${HOME}/.local/bin:${PATH}
+curl https://raw.githubusercontent.com/GoogleCloudPlatform/cloudml-samples/master/tools/check_environment.py | python
+
+
